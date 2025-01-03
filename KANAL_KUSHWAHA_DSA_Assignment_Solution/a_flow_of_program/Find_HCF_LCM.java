@@ -1,4 +1,4 @@
-package DSA_Assignment.a_flow_of_program;
+package KANAL_KUSHWAHA_DSA_Assignment_Solution.a_flow_of_program;
 
 import java.util.Scanner;
 

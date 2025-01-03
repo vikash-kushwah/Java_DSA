@@ -1,4 +1,4 @@
-package DSA_Assignment.c_conditionals_loops;
+package KANAL_KUSHWAHA_DSA_Assignment_Solution.c_conditionals_loops;
 
 import java.util.Scanner;
 

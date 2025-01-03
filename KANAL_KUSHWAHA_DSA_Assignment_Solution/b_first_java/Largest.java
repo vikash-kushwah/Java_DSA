@@ -1,4 +1,4 @@
-package DSA_Assignment.b_first_java;
+package KANAL_KUSHWAHA_DSA_Assignment_Solution.b_first_java;
 
 import java.util.Scanner;
 

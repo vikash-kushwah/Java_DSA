@@ -1,2 +1,80 @@
 # Project exclude paths
 /out/
+# Logs
+*.log
+*.log.*
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java Project files
+bin/
+*.bat
+*.sh
+*.env
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# IntelliJ IDEA Plugin Settings
+.idea/modules.xml
+.idea/*.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries/
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/httpRequests/
+
+# Lombok generated files
+*.lombok.config
+
+# Classpath file
+*.classpath
+*.project
+
+# Code Coverage
+coverage/
+*.exec
+jacoco*.exec
+
+# Java Web application
+*.war
+*.ear
+
+# Static Analysis tools
+checkstyle-out/
+findbugs-out/
+pmd-out/
