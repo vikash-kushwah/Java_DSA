@@ -1,5 +1,3 @@
-# Project exclude paths
-/out/
 # Logs
 *.log
 *.log.*
@@ -7,17 +5,25 @@
 # Compiled class files
 *.class
 
-# Package files
+# Package Files
 *.jar
 *.war
 *.ear
 
-# IDE-specific files
+# IntelliJ IDEA files
 .idea/
 *.iml
+*.ipr
+*.iws
 out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/
+.idea/dictionaries/
+.idea/modules.xml
+.idea/httpRequests/
 
-# Maven
+# Maven specific
 target/
 !.mvn/wrapper/maven-wrapper.jar
 .mvn/
@@ -27,54 +33,50 @@ pom.xml.versionsBackup
 pom.xml.next
 release.properties
 
-# Gradle
+# Gradle specific
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-
-# Java Project files
-bin/
-*.bat
-*.sh
-*.env
 
 # Temporary files
 *.tmp
 *.swp
 *.swo
-*.DS_Store
 
-# Operating system files
+# OS generated files
 Thumbs.db
 .DS_Store
 
-# IntelliJ IDEA Plugin Settings
-.idea/modules.xml
-.idea/*.iml
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/libraries/
-.idea/tasks.xml
-.idea/dictionaries/
-.idea/httpRequests/
-
-# Lombok generated files
-*.lombok.config
+# Generated Coverage reports
+coverage/
+*.exec
+jacoco*.exec
 
 # Classpath file
 *.classpath
 *.project
 
-# Code Coverage
-coverage/
-*.exec
-jacoco*.exec
-
-# Java Web application
+# Java Web Application
 *.war
 *.ear
 
-# Static Analysis tools
+# Checkstyle and PMD
 checkstyle-out/
-findbugs-out/
 pmd-out/
+
+# Lombok generated files
+*.lombok.config
+
+# Local Environment files
+*.env
+*.bat
+*.sh
+*.vscode/
+
+# Backup Files
+*.bak
+*.orig
+
+# IDE Plugins and Debug
+.idea/runConfigurations/
+*.pid
