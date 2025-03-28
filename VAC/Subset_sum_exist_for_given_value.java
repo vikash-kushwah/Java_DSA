@@ -2,7 +2,7 @@ package VAC;
 
 import java.util.Scanner;
 
-public class Subset_sum_exist_for_given_sum {
+public class Subset_sum_exist_for_given_value {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int N=sc.nextInt();
